@@ -2,32 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+@layer components {
+    .btnCustom {
+        @apply text-white font-bold bg-[#2a8784] px-14 py-3 rounded-md mt-8 hover:bg-[#226362] transition-all duration-300;
+    }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+    .linksFooter {
+        @apply font-bold text-xs text-white text-opacity-90 uppercase hover:text-[#339994]
+    }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+    .iconsFooter {
+        @apply w-6 h-6 text-white text-opacity-90 hover:text-[#339994]
+    }
+
+    .iconCardChoose {
+        @apply h-16 w-16 text-[#fbd6ba] xl:h-20 xl:w-20
+    }
 }
