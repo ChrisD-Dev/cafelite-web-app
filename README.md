@@ -3,7 +3,7 @@
 ## Descripción del proyecto
 Proyecto de una web responsive realizada en NextJS
 
-![Captura de pantalla 2024-09-02 a las 18 59 30](https://github.com/user-attachments/assets/bd32841f-19dd-4f89-ada4-a59e5f339488)
+![Captura de pantalla 2024-09-02 a las 19 04 58](https://github.com/user-attachments/assets/74a1ac9b-ee6e-475a-9375-4c41f9a4623f)
 
 <h3> <a href="https://cafelite.vercel.app/">Live Demo</h3>
 
